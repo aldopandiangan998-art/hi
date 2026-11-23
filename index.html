@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title id="meta-title">Selamat Ulang Tahun, Kak [Nama]! 🎂</title>
+  <meta name="description" id="meta-desc" content="Situs ucapan selamat ulang tahun spesial, penuh kasih sayang, doa, dan harapan terbaik untuk Kak [Nama].">
+  
+  <!-- Open Graph / WhatsApp Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="./">
+  <meta property="og:title" id="og-title" content="Selamat Ulang Tahun, Kak [Nama]! 🎂">
+  <meta property="og:description" id="og-desc" content="Situs ucapan selamat ulang tahun spesial, penuh kasih sayang, doa, dan harapan terbaik untuk Kak [Nama].">
+  <meta property="og:image" id="og-image" content="assets/foto.jpg">
+  <meta property="og:locale" content="id_ID">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twitter-title" content="Selamat Ulang Tahun, Kak [Nama]! 🎂">
+  <meta name="twitter:description" id="twitter-desc" content="Situs ucapan selamat ulang tahun spesial, penuh kasih sayang, doa, dan harapan terbaik untuk Kak [Nama].">
+  <meta name="twitter:image" id="twitter-image" content="assets/foto.jpg">
+
+  <!-- SVG Emoji Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎂</text></svg>">
+  
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Aksesibilitas: Lompat ke konten -->
+  <a href="#main-content" class="skip-link">Menuju ke konten utama</a>
+
+  <!-- Canvas Konfeti -->
+  <canvas id="confetti-canvas" class="confetti-canvas" aria-hidden="true"></canvas>
+
+  <!-- Dekorasi Latar Belakang Gelembung Lembut -->
+  <div class="bg-decorations" aria-hidden="true">
+    <div class="decor-circle decor-1"></div>
+    <div class="decor-circle decor-2"></div>
+    <div class="decor-circle decor-3"></div>
+    <div class="decor-star decor-4">✦</div>
+    <div class="decor-star decor-5">✦</div>
+  </div>
+
+  <!-- BAGIAN 1: HERO -->
+  <header id="hero" class="hero-section">
+    <div class="hero-container">
+      <div class="badge-pill">
+        <span class="badge-icon" aria-hidden="true">✨</span>
+        <span id="badge-text">Hari Yang Sangat Spesial</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span id="hero-headline">Selamat Ulang Tahun</span>,<br>
+        <span id="hero-name" class="highlight-name">Kak [Nama]</span>!
+      </h1>
+
+      <p id="hero-tagline" class="hero-tagline">
+        Hari ini adalah hari istimewa untuk merayakan orang yang begitu luar biasa dan penuh inspirasi.
+      </p>
+
+      <!-- Indikator Hitung Mundur / Status Hari Ulang Tahun -->
+      <div id="birthday-status" class="birthday-status" role="status" aria-live="polite">
+        <span class="status-icon" aria-hidden="true">🎂</span>
+        <span id="status-text" class="status-text">Memuat hari spesialmu...</span>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#photo-section" class="btn btn-secondary">
+          <span class="btn-icon" aria-hidden="true">💌</span>
+          <span>Buka Ucapan</span>
+        </a>
+        <button id="btn-surprise" class="btn btn-primary" type="button" aria-label="Nyalakan hujan konfeti kejutan">
+          <span class="btn-icon" aria-hidden="true">🎉</span>
+          <span>Kejutan Untuk Kakak</span>
+        </button>
+      </div>
+
+      <a href="#photo-section" class="scroll-indicator" aria-label="Gulir ke foto dan ucapan">
+        <span class="scroll-chevron" aria-hidden="true">↓</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- KONTEN UTAMA: FOTO & PESAN -->
+  <main id="main-content" class="main-wrapper">
+    <div class="content-container">
+
+      <!-- BAGIAN 2: FOTO KAKAK -->
+      <section id="photo-section" class="photo-section reveal" aria-labelledby="photo-heading">
+        <h2 id="photo-heading" class="sr-only">Foto Kakak Tercinta</h2>
+        
+        <figure class="photo-card">
+          <div class="photo-frame">
+            <picture class="photo-picture">
+              <source srcset="assets/foto.webp" type="image/webp">
+              <img 
+                id="sister-photo" 
+                src="assets/foto.jpg" 
+                alt="Foto Kak [Nama]" 
+                width="800" 
+                height="1000" 
+                loading="eager" 
+                class="framed-img"
+              >
+            </picture>
+            <div class="frame-sparkle top-right" aria-hidden="true">✨</div>
+            <div class="frame-sparkle bottom-left" aria-hidden="true">🌸</div>
+          </div>
+          
+          <figcaption class="photo-caption">
+            <span class="caption-tag">Yang Tersayang</span>
+            <span id="caption-name" class="caption-name">Kak [Nama]</span>
+            <span class="caption-sub">Selalu ceria, anggun, & menginspirasi ✨</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- BAGIAN 3: PESAN & DOA -->
+      <section id="message-section" class="message-section reveal" aria-labelledby="message-heading">
+        <div class="message-card">
+          <header class="card-header">
+            <div class="letter-badge">
+              <span class="badge-icon" aria-hidden="true">📜</span>
+              <span>Surat Untuk Kakak</span>
+            </div>
+            <h2 id="message-heading" class="card-title">Doa & Harapan Tulus</h2>
+            <div class="title-divider" aria-hidden="true"></div>
+          </header>
+
+          <article id="message-body" class="message-body">
+            <!-- Paragraf pesan dimasukkan oleh CONFIG pada script.js -->
+            <p class="message-paragraph">
+              [GANTI PESAN] Selamat ulang tahun untuk kakak perempuan terbaik di dunia! Semoga di usia yang baru ini, setiap langkah Kakak senantiasa dipenuhi keberkahan, kebahagiaan yang melimpah, dan kemudahan dalam meraih semua mimpi dan cita-cita.
+            </p>
+            <p class="message-paragraph">
+              [GANTI PESAN] Terima kasih sudah selalu menjadi sosok yang begitu penyayang, pendengar yang sabar, serta panutan hebat bagi adikmu ini. Segala tawa, cerita, dan kebaikan yang Kakak bagikan selalu membuat hari-hari terasa jauh lebih hangat dan bermakna.
+            </p>
+            <p class="message-paragraph">
+              [GANTI PESAN] Semoga kesehatan yang prima, kesuksesan yang berkah, dan kedamaian hati selalu menyertai Kakak di setiap waktu. Tetaplah menjadi pribadi yang hangat, kuat, dan selalu tersenyum manis!
+            </p>
+          </article>
+
+          <div class="message-signoff">
+            <p class="signoff-note">Dengan penuh kasih dan peluk hangat,</p>
+            <p id="sender-name" class="sender-name">[Nama Adik]</p>
+          </div>
+
+          <div class="message-action">
+            <button id="btn-surprise-msg" class="btn btn-accent" type="button" aria-label="Rayakan lagi dengan hujan konfeti">
+              <span class="btn-icon" aria-hidden="true">🎊</span>
+              <span>Rayakan Lagi!</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- BAGIAN 4: PENUTUP (FOOTER) -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p class="footer-love">
+        Dibuat dengan segenap cinta & doa tulus untuk kakak tercinta 💖
+      </p>
+      <p class="footer-meta">
+        &copy; <span id="current-year">2026</span> &bull; Selamat bertambah usia, <span id="footer-name">Kak [Nama]</span>!
+      </p>
+    </div>
+  </footer>
+
+  <!-- Script JS (Vanilla, defer) -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
