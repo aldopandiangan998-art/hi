@@ -25,17 +25,17 @@
    * --------------------------------------------------------------------------
    */
   const CONFIG = {
-    name: 'Kak [Nama Kakak]',
-    age: '', // Biarkan string kosong jika usia tidak ingin ditampilkan
+    name: 'Kak Nova',
+    age: '', // Kosongkan jika belum ingin menampilkan angka usia, atau isi misal '25'
     birthdayDate: '2026-11-23', // Format: YYYY-MM-DD
     headline: 'Selamat Ulang Tahun',
-    tagline: 'Hari ini adalah hari istimewa untuk merayakan sosok yang luar biasa, penyayang, dan penuh inspirasi.',
+    tagline: 'Hari ini adalah hari istimewa untuk merayakan sosok Kak Nova yang luar biasa, penyayang, dan penuh inspirasi.',
     message: [
-      'Terima kasih sudah menjadi kakak yang selalu ada, baik saat aku senang maupun saat aku butuh tempat bersandar. Mungkin aku jarang mengatakannya, tapi aku sangat bersyukur punya kakak sepertimu.',
-      'Di usia yang baru ini, semoga Kakak selalu diberi kesehatan, rezeki yang lancar, dan kebahagiaan yang tidak ada habisnya. Semoga semua impian Kakak satu per satu jadi kenyataan.',
-      'Tetaplah jadi dirimu yang hangat, kuat, dan menyenangkan. Aku sayang Kakak. 💖'
+      'Selamat ulang tahun untuk Kak Nova tercinta! Semoga di usia yang baru ini, setiap langkah Kakak senantiasa dipenuhi keberkahan, kebahagiaan yang melimpah, dan kemudahan dalam meraih semua mimpi serta cita-cita.',
+      'Terima kasih sudah selalu menjadi sosok kakak yang begitu perhatian, tempat bercerita yang nyaman, serta panutan hebat bagi adikmu ini. Segala senyuman, tawa, dan kebaikan yang Kakak bagikan selalu membuat suasana terasa lebih hangat.',
+      'Semoga kesehatan yang prima, kesuksesan dalam setiap urusan, dan kedamaian hati selalu menyertai Kak Nova di setiap waktu. Tetaplah menjadi pribadi yang hangat, kuat, dan selalu tersenyum manis!'
     ],
-    senderName: '[Nama Adik]',
+    senderName: 'Adikmu, Aldo',
     photo: 'assets/foto.jpg',
     photoWebp: 'assets/foto.webp',
     confettiDurationMs: 3500 // Durasi efek konfeti dalam milidetik (maks 4 detik)
