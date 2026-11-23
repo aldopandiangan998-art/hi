@@ -26,7 +26,7 @@
    */
   const CONFIG = {
     name: 'Kak Nova',
-    age: '', // Kosongkan jika belum ingin menampilkan angka usia, atau isi misal '25'
+    age: '24', // Usia Kak Nova
     birthdayDate: '2026-11-23', // Format: YYYY-MM-DD
     headline: 'Selamat Ulang Tahun',
     tagline: 'Hari ini adalah hari istimewa untuk merayakan sosok Kak Nova yang luar biasa, penyayang, dan penuh inspirasi.',
