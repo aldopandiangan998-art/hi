@@ -25,15 +25,15 @@
    * --------------------------------------------------------------------------
    */
   const CONFIG = {
-    name: 'Kak [Nama]',
-    age: '25', // Isi angka usia (misal '25') atau biarkan string kosong '' jika dirahasiakan
+    name: 'Kak [Nama Kakak]',
+    age: '', // Biarkan string kosong jika usia tidak ingin ditampilkan
     birthdayDate: '2026-11-23', // Format: YYYY-MM-DD
     headline: 'Selamat Ulang Tahun',
     tagline: 'Hari ini adalah hari istimewa untuk merayakan sosok yang luar biasa, penyayang, dan penuh inspirasi.',
     message: [
-      '[GANTI PESAN] Selamat ulang tahun untuk kakak perempuan terbaik di dunia! Semoga di usia yang baru ini, setiap langkah Kakak senantiasa dipenuhi keberkahan, kebahagiaan yang melimpah, dan kemudahan dalam meraih semua mimpi dan cita-cita.',
-      '[GANTI PESAN] Terima kasih sudah selalu menjadi sosok yang begitu penyayang, pendengar yang sabar, serta panutan hebat bagi adikmu ini. Segala tawa, cerita, dan kebaikan yang Kakak bagikan selalu membuat hari-hari terasa jauh lebih hangat dan bermakna.',
-      '[GANTI PESAN] Semoga kesehatan yang prima, kesuksesan yang berkah, dan kedamaian hati selalu menyertai Kakak di setiap waktu. Tetaplah menjadi pribadi yang hangat, kuat, dan selalu tersenyum manis!'
+      'Terima kasih sudah menjadi kakak yang selalu ada, baik saat aku senang maupun saat aku butuh tempat bersandar. Mungkin aku jarang mengatakannya, tapi aku sangat bersyukur punya kakak sepertimu.',
+      'Di usia yang baru ini, semoga Kakak selalu diberi kesehatan, rezeki yang lancar, dan kebahagiaan yang tidak ada habisnya. Semoga semua impian Kakak satu per satu jadi kenyataan.',
+      'Tetaplah jadi dirimu yang hangat, kuat, dan menyenangkan. Aku sayang Kakak. 💖'
     ],
     senderName: '[Nama Adik]',
     photo: 'assets/foto.jpg',
